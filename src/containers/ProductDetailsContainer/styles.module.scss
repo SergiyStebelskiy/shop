@@ -1,0 +1,43 @@
+.details {
+  padding: 16px 24px;
+  background: white;
+  border-radius: 6px;
+  .image {
+    display: block;
+    max-width: 40%;
+    height: auto;
+  }
+  .description {
+    margin: 32px 0;
+    display: block;
+  }
+  .item {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+.head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  .title {
+    margin-right: 40px;
+  }
+  .editBtn {
+    flex: 0 0 auto;
+  }
+}
+.commentsWrap {
+  padding: 16px 24px;
+  background: white;
+  border-radius: 6px;
+  margin-top: 40px;
+  .commentsHead {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    .title {
+      margin-right: 24px;
+    }
+  }
+}

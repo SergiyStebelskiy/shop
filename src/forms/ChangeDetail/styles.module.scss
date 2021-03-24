@@ -1,0 +1,12 @@
+.changeDetailForm {
+  margin-top: 24px;
+  .field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .fieldsWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f5f5;
+}
+.main-wrap {
+  padding: 80px 5vw;
+}
+
+.loader-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.popup-btns {
+  display: flex;
+  justify-content: flex-end;
+  .close-btn {
+    margin-right: 8px;
+  }
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

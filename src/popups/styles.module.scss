@@ -1,0 +1,44 @@
+.popupWrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(black, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup {
+  background-color: white;
+  width: 60%;
+  border-radius: 6px;
+  min-height: 240px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .deleteBtn {
+    margin-left: 8px;
+  }
+  .message {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+  .btns {
+    display: flex;
+    justify-content: flex-end;
+    .closeBtn {
+      margin-right: 8px;
+    }
+  }
+}

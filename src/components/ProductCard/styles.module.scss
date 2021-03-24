@@ -1,0 +1,30 @@
+.productCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &:hover {
+    .deleteBtn {
+      display: block;
+    }
+  }
+  .image {
+    height: 260px;
+  }
+  .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+  }
+  .btnsWrap {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .deleteBtn {
+    display: none;
+  }
+}
